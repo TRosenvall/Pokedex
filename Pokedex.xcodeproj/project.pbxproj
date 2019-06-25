@@ -37,6 +37,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85785E4222C28AE000E36E72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85CA54CD22C28A2D0058A8CC /* AppDelegate.swift */,
+				85CA54D722C28A2E0058A8CC /* Assets.xcassets */,
+				85CA54D922C28A2E0058A8CC /* LaunchScreen.storyboard */,
+				85CA54DC22C28A2E0058A8CC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85785E4322C28B0C00E36E72 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85CA54CF22C28A2D0058A8CC /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		85785E4422C28B2400E36E72 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		85785E4522C28B2E00E36E72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85785E4422C28B2400E36E72 /* Model Controllers */,
+				85785E4322C28B0C00E36E72 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85785E4622C28B3300E36E72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85CA54D122C28A2D0058A8CC /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85785E4722C28B3900E36E72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85CA54D422C28A2D0058A8CC /* Pokedex.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		85CA54C122C28A2D0058A8CC = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +107,10 @@
 		85CA54CC22C28A2D0058A8CC /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				85CA54CD22C28A2D0058A8CC /* AppDelegate.swift */,
-				85CA54CF22C28A2D0058A8CC /* ViewController.swift */,
-				85CA54D122C28A2D0058A8CC /* Main.storyboard */,
-				85CA54D722C28A2E0058A8CC /* Assets.xcassets */,
-				85CA54D922C28A2E0058A8CC /* LaunchScreen.storyboard */,
-				85CA54DC22C28A2E0058A8CC /* Info.plist */,
-				85CA54D422C28A2D0058A8CC /* Pokedex.xcdatamodeld */,
+				85785E4722C28B3900E36E72 /* Model */,
+				85785E4622C28B3300E36E72 /* Views */,
+				85785E4522C28B2E00E36E72 /* Controllers */,
+				85785E4222C28AE000E36E72 /* Resources */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
