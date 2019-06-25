@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTk-16-rS5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images copy" translatesAutoresizingMaskIntoConstraints="NO" id="RTk-16-rS5" userLabel="Background Image">
                                 <rect key="frame" x="88" y="188" width="238" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RTk-16-rS5" secondAttribute="height" multiplier="1:1" id="swh-QB-t2M"/>
@@ -121,4 +121,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="images copy" width="201" height="200"/>
+    </resources>
 </document>
